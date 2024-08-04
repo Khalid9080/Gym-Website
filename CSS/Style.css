@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 /* --------deafult Style-------- */
+body{
+    
+    background: linear-gradient(180deg, black 0%, #000000e5 50%, black 100%);
+}
 #master{
 
     font-family: Inter;
-    width: 90%;
+    width: 80%;
     margin: 5rem auto;
-    background: rgb(0, 0, 0);
-    
-
+   
 }
+
+
 
 
 *{
@@ -29,7 +33,7 @@
 
 .navbar h3{
     color: rgb(230, 83, 60);
-    font-size:2.5rem ;
+    font-size:2.7rem ;
     font-style: italic;
     font-weight: 800;
     
@@ -37,7 +41,7 @@
 
 .nav-data {
     box-sizing: border-box;
-    border: 2px solid rgba(255, 255, 255, 0.242);
+    border: 1px solid rgba(255, 255, 255, 0.242);
     border-radius: 25px;
     display: flex;
     flex-direction: row;
@@ -89,6 +93,19 @@ justify-content: space-between;
 margin-top: 50px;
 
 }
+
+.landingpage-title-Image .title-data span{
+    
+font-family: 'Miama', sans-serif;
+font-weight: 400;
+Font-size: 78px;
+Letter-spacing: 0%;
+font-style: italic;
+line-height: 93.6px;
+text-align: left;
+
+
+}
 .landingpage-title-Image h2{
 
 font-size:5rem ;
@@ -104,7 +121,18 @@ color: rgb(255, 255, 255);
     margin-top: 30px;
 
 
+
 }
+
+.btn-lp{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 30px;
+    margin-top: 18px;
+
+}
+
 
 .landingpage-title-Image .btn1,
 .landingpage-title-Image .btn2{
@@ -122,6 +150,7 @@ color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 600;
+    justify-content: center;
    
 }
 
@@ -135,17 +164,140 @@ color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 600;
+    justify-content: center;
     
 }
 
-.btn-lp{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    gap: 50px;
+.landingpage-title-Image .lp-image img{
+    margin-right:150px;
+    margin-top: -30px;
+}
 
+.lp-card .lp-card1 h4{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.8rem;
+    margin-top: -25px;
+    margin-left: 15px;
+    letter-spacing: 0.07rem;
+    }
+
+   
+
+.lp-card .lp-card2 h3{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 1.8rem;
+    letter-spacing: 0.1rem;
+    /* margin-top: 25px; */
+
+    }
+
+
+
+.lp-card .lp-card1{
+    color: white;  
+    box-sizing: border-box;
+    border: 0.06rem solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;  
+    backdrop-filter: blur(1.25rem);
+    background: rgba(48, 48, 48, 0.54);
+    width: 13%;
+    padding: 18px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+
+    position: relative;
+    left:48rem;
+    bottom: 10rem;
+   
+    }
+
+    .landing-page .lp-card .lp-card2{
+    color: white;  
+    box-sizing: border-box;
+    border: 0.06rem solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+    backdrop-filter: blur(1.25rem);
+    background: rgba(48, 48, 48, 0.54);
+    width: 14%;
+    padding: 18px ;
+    text-align: start;
+    justify-content: start;
+    align-items: center;
+    margin: 10px 0;
+
+    position: relative;
+    left: 67rem;
+    bottom: 35rem;
+    
+    }
+
+
+
+
+
+
+.lp-card .lp-card2 p,
+.lp-card .lp-card1 p{
+    font-size: 0.81rem;
 }
 
 
+.lp-card1 .red .circle{
+        
+    height: 26px;
+    width: 26px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    display:flex;
+    flex-direction: row;
+    padding: 3px ;
+    position: relative;
+    left: 18px;
+    top:15px ;
 
+  
+}
 
+.landingpage-title-Image .lp-card .lp-card1{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.lp-card .lp-card2 p{
+    margin-top:8px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.81rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 0.06rem;
+    /* s */
+    
+}
+
+.lp-card .lp-card1 p{
+    margin-top: 5px;
+    margin-left: 45px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.81rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 0.08rem;
+    
+}
+
+.o{
+   width: 100%;
+   background-color: rgb(242, 255, 0);
+   margin-top: -100px;
+   
+}
+.o .w{
+    color: white;
+}
