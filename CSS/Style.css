@@ -4,7 +4,7 @@
 /* --------deafult Style-------- */
 body{
     
-    background: linear-gradient(180deg,black,rgba(0, 0, 0, 0.875),black,black,black 100%);
+    background: linear-gradient(180deg,black,rgba(0, 0, 0, 0.875),black,black,black,black 100%);
 }
 #master{
 
@@ -351,7 +351,47 @@ font-weight: 400;
 line-height: 1.13rem;
 letter-spacing: 0.02rem;
 text-align: center;
-margin-top: 10px;
-
+margin-top: 12px;
 
 }
+
+/* ---------------------Run Section---------------------- */
+
+
+.run{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.13rem;
+    background: rgb(34, 34, 34);
+    margin-top: 150px;
+}
+
+.run-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.run .run-data{
+    color:white;
+}
+.run-btn{
+    border: 2px solid rgb(230, 83, 60);
+    background-color: rgb(230, 83, 60);
+    padding: 10px 30px;
+    border-radius: 45px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+   
+}
+
+.run-image img{
+width: 100%;
+border-radius: 1rem;
+align-items: center;
+/* margin: 2rem 0rem; */
+}
+
