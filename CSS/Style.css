@@ -4,7 +4,7 @@
 /* --------deafult Style-------- */
 body{
     
-    background: linear-gradient(180deg, black 0%, #000000e5 50%, black 100%);
+    background: linear-gradient(180deg,black,rgba(0, 0, 0, 0.875),black,black,black 100%);
 }
 #master{
 
@@ -292,12 +292,66 @@ align-items: center;
     
 }
 
-.o{
-   width: 100%;
-   background-color: rgb(242, 255, 0);
-   margin-top: -100px;
-   
-}
-.o .w{
+/* --------Change Your Habits---------- */
+
+.habit{
     color: white;
+    margin-top: -100px;
+    
+}
+
+.habit-title-p{
+    text-align: center;
+}
+
+.habit-title-p h1{
+color: rgb(255, 255, 255);
+letter-spacing: 0.12rem;
+font-size: 2.8rem;
+font-weight: 900;
+line-height: 120%;
+}
+.habit-title-p p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5rem;
+letter-spacing: 0.05rem;
+text-align: center;
+margin-top: 20px;
+
+}
+
+.habit-card{
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.habit-card img{
+    border-radius: 50%;
+    border: 5px solid rgba(88, 85, 85, 0.197);
+    width: 220px;
+    margin-bottom: 15px;
+    
+}
+.habit-card h6{
+font-size: 1.13rem;
+font-weight: 600;
+line-height: 120%;
+}
+
+.habit-card p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 0.88rem;
+font-weight: 400;
+line-height: 1.13rem;
+letter-spacing: 0.02rem;
+text-align: center;
+margin-top: 10px;
+
+
 }
