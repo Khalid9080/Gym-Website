@@ -470,17 +470,21 @@ margin-bottom: 1.5rem;
 
 .meeting-image .trainer img{
     width: 100%;
+    height: 330px;
     border-radius: 1.1rem;
-    position: relative;
+    background: linear-gradient(180deg,rgb(6, 1, 1) 100%);
+    object-fit: cover;
+    
 }
 
 
 .meeting-data h1{
     font-size: 3rem;
     font-weight: 900;
-    line-height: 120%;
-    letter-spacing: 0%;
+    line-height: 130%;
+    letter-spacing: 0.09rem;
     text-align: center;
+   
     
 }
 
@@ -488,14 +492,39 @@ margin-bottom: 1.5rem;
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.88rem;
     font-weight: 400;
-    line-height: 1.5rem;
-    letter-spacing: 0.02rem;
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
     text-align: center;
+    margin-top: -10px;
+}
+
+.trainer{
+    position: relative; /* This will make the image and text align correctly */
+    width: 100%;
 }
 
 
-.trainer .trainer-data h2,p{
-    top:100px;
-    right: 25px;
+.trainer .trainer-text {
+    
+    position: absolute; /* This allows text to be positioned over the image */
+    bottom: 1.5rem; /* Adjust as necessary to place text at the bottom */
+    left: 1rem;
+    
+    /* width: 100%; Adjust as necessary */
+    padding: 10px; /* Padding around the text */
+    color: white; /* Text color */
+    text-align: start; 
+}
+
+.trainer-text h2{
+    font-weight: 800;
     
 }
+.trainer-text p{
+    color: rgba(170, 165, 165, 0.997);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 5px;  
+}
+
