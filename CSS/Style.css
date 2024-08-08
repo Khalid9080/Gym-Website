@@ -28,6 +28,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-family: Inter;
 }
 
 
@@ -499,20 +500,20 @@ margin-bottom: 1.5rem;
 }
 
 .trainer{
-    position: relative; /* This will make the image and text align correctly */
+    position: relative; 
     width: 100%;
 }
 
 
 .trainer .trainer-text {
     
-    position: absolute; /* This allows text to be positioned over the image */
-    bottom: 1.5rem; /* Adjust as necessary to place text at the bottom */
+    position: absolute; 
+    bottom: 1.5rem; 
     left: 1rem;
     
-    /* width: 100%; Adjust as necessary */
-    padding: 10px; /* Padding around the text */
-    color: white; /* Text color */
+   
+    padding: 10px; 
+    color: white; 
     text-align: start; 
 }
 
@@ -528,3 +529,79 @@ margin-bottom: 1.5rem;
     margin-top: 5px;  
 }
 
+/* -------------Footer Section-------------- */
+
+.footer{
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.footer-data{
+    display: flex;
+    flex-direction: row;
+    padding:3rem 3rem;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.footer-fitness h3{
+    color: rgb(230, 83, 60);
+    font-size:2.9rem ;
+    font-style: italic;
+    font-weight: 800;
+    font-family: Inter;
+    margin-bottom: 1rem;
+}
+.footer-fitness p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.03rem;
+    
+    }
+
+.get-started1 h2 , .get-started2 h2 {
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 800;
+line-height: 120%;
+margin-bottom: 1rem;
+letter-spacing: 0.05rem;
+
+}
+
+
+.get-started1 p , .get-started2 p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 230%;
+
+}
+
+
+.footer-line {
+    width: 80%;
+    border: 0.5px solid rgba(255, 255, 255, 0.2); 
+    margin: 20px 10rem; 
+   
+}
+
+.cpy-right p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 230%;
+    text-align: center;
+    padding: 1.8rem;
+}
