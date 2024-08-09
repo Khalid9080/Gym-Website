@@ -5,7 +5,7 @@
 /* --------deafult Style-------- */
 body{
     
-    background: linear-gradient(180deg,black,rgba(0, 0, 0, 0.875),black,black,black,black 100%);
+    background: linear-gradient(180deg,black,rgba(0, 0, 0, 0.89),black,black,black,black 100%);
 }
 #master{
 
@@ -181,8 +181,20 @@ color: rgb(255, 255, 255);
     font-weight: 900;
     line-height: 1.8rem;
     margin-top: -25px;
-    margin-left: 15px;
+    margin-left: 1.2rem;
     letter-spacing: 0.07rem;
+    }
+
+
+    .lp-card .lp-card1 p{
+        margin-top: 5px;
+        margin-left: 3rem;
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 0.81rem;
+        font-weight: 400;
+        line-height: 1.25rem;
+        letter-spacing: 0.08rem;
+        
     }
 
    
@@ -197,6 +209,17 @@ color: rgb(255, 255, 255);
 
     }
 
+    .lp-card .lp-card2 p{
+        margin-top:12px;
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 0.81rem;
+        font-weight: 400;
+        line-height: 1.25rem;
+        letter-spacing: 0.06rem;
+        /* s */
+        
+    }
+    
 
 
 .lp-card .lp-card1{
@@ -206,7 +229,7 @@ color: rgb(255, 255, 255);
     border-radius: 0.75rem;  
     backdrop-filter: blur(1.25rem);
     background: rgba(48, 48, 48, 0.54);
-    width: 13%;
+    width: 15%;
     padding: 18px 0;
     text-align: center;
     justify-content: center;
@@ -214,7 +237,7 @@ color: rgb(255, 255, 255);
     margin: 10px 0;
 
     position: relative;
-    left:48rem;
+    left:38rem;
     bottom: 10rem;
    
     }
@@ -226,7 +249,7 @@ color: rgb(255, 255, 255);
     border-radius: 0.75rem;
     backdrop-filter: blur(1.25rem);
     background: rgba(48, 48, 48, 0.54);
-    width: 14%;
+    width: 16%;
     padding: 18px ;
     text-align: start;
     justify-content: start;
@@ -234,7 +257,7 @@ color: rgb(255, 255, 255);
     margin: 10px 0;
 
     position: relative;
-    left: 67rem;
+    left: 60rem;
     bottom: 35rem;
     
     }
@@ -259,6 +282,7 @@ color: rgb(255, 255, 255);
     display:flex;
     flex-direction: row;
     padding: 3px ;
+   
     position: relative;
     left: 18px;
     top:15px ;
@@ -272,27 +296,8 @@ flex-direction: row;
 align-items: center;
 }
 
-.lp-card .lp-card2 p{
-    margin-top:8px;
-    color: rgba(255, 255, 255, 0.65);
-    font-size: 0.81rem;
-    font-weight: 400;
-    line-height: 1.25rem;
-    letter-spacing: 0.06rem;
-    /* s */
-    
-}
 
-.lp-card .lp-card1 p{
-    margin-top: 5px;
-    margin-left: 45px;
-    color: rgba(255, 255, 255, 0.65);
-    font-size: 0.81rem;
-    font-weight: 400;
-    line-height: 1.25rem;
-    letter-spacing: 0.08rem;
-    
-}
+
 
 /* --------Change Your Habits---------- */
 
@@ -491,7 +496,7 @@ margin-bottom: 1.5rem;
 
 .meeting-data p{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 0.88rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 2rem;
     letter-spacing: 0.05rem;
@@ -582,7 +587,7 @@ letter-spacing: 0.05rem;
 .get-started1 p , .get-started2 p {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 230%;
 
