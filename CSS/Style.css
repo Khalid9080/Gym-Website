@@ -34,9 +34,7 @@ body{
 
 .nav i{
     display: none;
-    text-align: end;
-    margin-top: -1.5rem;
-    color: white;
+   
 }
 
 .navbar h3{
@@ -344,7 +342,7 @@ margin-top: 20px;
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 3rem;
     justify-content: space-between;
 }
 
@@ -632,11 +630,18 @@ letter-spacing: 0.05rem;
         width: 85%;
     }
 
+
+    /* --------------Navbar-Fitness---------- */
+
     .navbar .nav-data{
         display: none;
     }
     .nav i{
         display: block;
+        font-size: 1.7rem;
+        text-align: end;
+        margin-top: -1.8rem;
+        color: white;
     }
     .navbar h3{
         font-size:2.3rem ;  
@@ -681,7 +686,7 @@ font-size:2.5rem ;
 .landingpage-title-Image .btn2{
    
     margin-top: 20px;
-    width: 100%;
+    width: 85%;
 }
 
 .btn1 .btn1-0{
@@ -725,13 +730,13 @@ font-size:2.5rem ;
 
 .lp-card .lp-card1{
    
-    width: 35%;
+    width: 45%;
     padding: 15px 0;
     margin: 10px 0;
 
     position: relative;
-    left:3rem;
-    bottom: 10rem;
+    left:0.1rem;
+    bottom: 18rem;
    
     }
 
@@ -742,8 +747,8 @@ font-size:2.5rem ;
     margin: 10px 0;
 
     position: relative;
-    left: 13rem;
-    bottom: 42rem;
+    left: 12rem;
+    bottom: 41rem;
     
     }
 
@@ -768,7 +773,7 @@ font-size:2.5rem ;
         margin-top: 5px;
         margin-left: 3rem;
         color: rgba(255, 255, 255, 0.65);
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         font-weight: 400;
         line-height: 1.25rem;
         letter-spacing: 0.05rem;
@@ -790,7 +795,7 @@ font-size:2.5rem ;
     .lp-card .lp-card2 p{
         margin-top:12px;
         
-        font-size: 0.7rem;
+        font-size: 0.73rem;
         font-weight: 400;
         line-height: 1.25rem;
         letter-spacing: 0.05rem;
@@ -799,6 +804,74 @@ font-size:2.5rem ;
         
     }
 
+    .landingpage-title-Image .lp-image img{
+        margin-right:45px;
+        
+    }
+
+    /* -------------Change Your Habits---------- */
+
+
     
+    
+    .habit-card{
+        
+        flex-direction: column;
+        gap:2.5rem;
+       
+    }
+
+/* ----------------------Run----------------------- */
+
+.run-div{
+    flex-direction: column;
+}
+
+.run-image img{
+    
+        width: 100%;
+        
+        border-radius: 1rem;
+        align-items: center;
+        margin-left: 0;
+        margin-top:5px ;
+        margin-top: -10px;
+       
+        
+        Object-fit: none;
+        Object-position: none;
+        object-fit: cover;
+        
+    
+    }
+
+    .run-data h1{
+        font-size: 2rem;
+       
+    }
+
+    .run-div{
+        /* display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between; */
+        padding: 1.5rem 1.5rem;
+        /* gap:3rem; */
+        
+    }
+
+    .run-data{
+        margin-left: 0px;
+       
+    }
+
+
+    .run-btn{
+        padding: 0.9rem 7.4rem;
+        margin-top: -10px;
+    }
+
+
+
 
 }
