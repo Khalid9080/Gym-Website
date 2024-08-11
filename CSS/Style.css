@@ -125,6 +125,8 @@ color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
     margin-top: 30px;
+    line-height: 2rem;
+    letter-spacing: 0.03rem;
 
 
 
@@ -134,7 +136,7 @@ color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     text-align: center;
-    gap: 30px;
+    gap: 2rem;
     margin-top: 18px;
 
 }
@@ -154,11 +156,11 @@ color: rgb(255, 255, 255);
     
     border: 2px solid rgb(230, 83, 60);
     background-color: rgb(230, 83, 60);
-    padding: 10px 30px;
+    padding: 1rem 3rem;
     border-radius: 45px;
     align-items: center;
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 1.1rem;
     font-weight: 600;
     justify-content: center;
    
@@ -169,10 +171,10 @@ color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
     background-color: rgb(0,0,0);
     border-radius: 45px;
-    padding: 10px 30px;
+    padding: 1rem 3rem;
     align-items: center;
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 1.1rem;
     font-weight: 600;
     justify-content: center;
     
@@ -189,14 +191,14 @@ color: rgb(255, 255, 255);
     font-weight: 900;
     line-height: 1.8rem;
     margin-top: -25px;
-    margin-left: 1.2rem;
+    margin-left: 0.5rem;
     letter-spacing: 0.07rem;
     }
 
 
     .lp-card .lp-card1 p{
         margin-top: 5px;
-        margin-left: 3rem;
+        margin-left: 2.5rem;
         color: rgba(255, 255, 255, 0.65);
         font-size: 0.81rem;
         font-weight: 400;
@@ -245,7 +247,7 @@ color: rgb(255, 255, 255);
     margin: 10px 0;
 
     position: relative;
-    left:38rem;
+    left:46rem;
     bottom: 10rem;
    
     }
@@ -257,7 +259,7 @@ color: rgb(255, 255, 255);
     border-radius: 0.75rem;
     backdrop-filter: blur(1.25rem);
     background: rgba(48, 48, 48, 0.54);
-    width: 16%;
+    width: 14%;
     padding: 18px ;
     text-align: start;
     justify-content: start;
@@ -265,7 +267,7 @@ color: rgb(255, 255, 255);
     margin: 10px 0;
 
     position: relative;
-    left: 60rem;
+    left: 68rem;
     bottom: 35rem;
     
     }
@@ -289,14 +291,17 @@ color: rgb(255, 255, 255);
     border-radius: 50%;
     display:flex;
     flex-direction: row;
-    padding: 3px ;
+    padding: 4px ;
    
     position: relative;
-    left: 18px;
-    top:15px ;
+    left: 1.5rem;
+    top:1.1rem ;
 
   
 }
+
+
+
 
 .landingpage-title-Image .lp-card .lp-card1{
 display: flex;
@@ -888,6 +893,23 @@ font-size:2.5rem ;
     }
     
 
+/* ----------------Footer------------*/
+
+.footer-data{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 75%;
+}
+
+.footer-line {
+    width: 75%;
+    border: 0.5px solid rgba(255, 255, 255, 0.2); 
+    margin: 20px 10rem; 
+    position: relative;
+    right: 7rem;
+   
+}
 
 
 
