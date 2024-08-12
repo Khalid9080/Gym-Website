@@ -240,7 +240,7 @@ color: rgb(255, 255, 255);
     backdrop-filter: blur(0.5rem);
     background: rgba(48, 48, 48, 0.54);
     width: 15%;
-    padding: 14px 0;
+    padding: 10px 0;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -285,8 +285,8 @@ color: rgb(255, 255, 255);
 
 .lp-card1 .red .circle{
         
-    height: 26px;
-    width: 26px;
+    height: 25px;
+    width: 25px;
     background-color: rgb(230, 83, 60);
     border-radius: 50%;
     display:flex;
@@ -1029,6 +1029,107 @@ font-size:2.5rem ;
         padding: 0.9rem 7.4rem;
         margin-top: -10px;
     }
+
+
+    /* -------------------BMI Calculator------------------ */
+
+.bmi{
+    width: 100%;
+   
+}
+
+.bmi-title{
+    /* text-wrap: nowrap; */
+    margin-left: 2rem;
+    
+}
+
+.bmi-title h1{
+    font-size: 2rem;
+}
+
+.bmi-title p{
+    font-size: 0.88rem;
+    text-align: left;
+}
+
+.bmi-chart h2{
+    font-size: 1rem;
+}
+
+.bmi-calculation{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bmi-calc{
+    margin-top: 3rem;
+
+}
+
+.bmi-calc-title h2{
+    font-size: 1rem;
+}
+.bmi-calc-title p{
+    font-size: 0.88rem;
+}
+
+.bmi-calc-form1 input, 
+.bmi-calc-form2 input,
+.bmi-calc-form2 select,
+.bmi-calc-form3 select{
+width: 70px;
+border-left: none;
+padding-left: 10px;
+border-radius: 14px;
+font-size: 1.1rem;
+font-weight: 100;
+line-height: 1.38rem;
+padding: 1rem 3rem;
+
+
+
+}
+
+
+.bmi-calc-form1 ::placeholder,
+.bmi-calc-form2 ::placeholder
+{
+font-size: 15px;
+}
+
+.bmi-calc-form2 select,
+.bmi-calc-form3 select{
+    font-size: 15px;
+}
+
+.bmi-calc .run-btn{
+    padding: 12px 3rem;
+}
+
+th{
+    font-size: 1rem;
+    font-weight: 500;
+}
+td{
+    font-size: 0.88rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
