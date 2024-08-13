@@ -785,7 +785,7 @@ letter-spacing: 0.05rem;
 
 /* -----------------------Responsiveness for Mobile Device [Media Query]------------------ */
 
-@media screen and (max-width: 575px){
+@media screen and (max-width: 576px){
 
     #master{
         font-family: Inter;
@@ -1079,15 +1079,12 @@ font-size:2.5rem ;
 .bmi-calc-form2 input,
 .bmi-calc-form2 select,
 .bmi-calc-form3 select{
-width: 70px;
+width: 4.18rem;
 border-left: none;
 padding-left: 10px;
 border-radius: 14px;
-font-size: 1.1rem;
-font-weight: 100;
 line-height: 1.38rem;
 padding: 1rem 3rem;
-
 
 
 }
@@ -1097,11 +1094,13 @@ padding: 1rem 3rem;
 .bmi-calc-form2 ::placeholder
 {
 font-size: 15px;
+
 }
 
 .bmi-calc-form2 select,
 .bmi-calc-form3 select{
     font-size: 15px;
+  
 }
 
 .bmi-calc .run-btn{
